@@ -20,7 +20,7 @@ on :
         
       Country:
         type: boolean
-        description : Country Name_country
+        description : Country Name_bool
         
 
 jobs: 

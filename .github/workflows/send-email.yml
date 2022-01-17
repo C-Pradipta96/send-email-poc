@@ -17,11 +17,20 @@ on :
       City:
         type: environment
         description : City Name ENV
+        options:
+          - Delhi
+          - Kolkata
+          - Tokyo
+          - New York
         
       Country:
         type: boolean
         description : Country Name_bool
-        
+        options:
+          - India
+          - USA
+          - Japan
+          - America
 
 jobs: 
   send_mail : 

@@ -7,7 +7,7 @@ name : CI
 on : 
   workflow_dispatch:
     inputs:
-      choice:
+      Organisation:
         type: choice
         description: Choose an organisation
         options:

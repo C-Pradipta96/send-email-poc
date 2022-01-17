@@ -9,11 +9,19 @@ on :
     inputs:
       Organisation:
         type: choice
-        description: Choose an organisation
+        description: Choose an organisation (Choice)
         options:
           - XYZ
           - ABC
           - PQR
+      City:
+        type: environment
+        description : City Name ENV
+        
+      Country:
+        type: boolean
+        description : Country Name_country
+        
 
 jobs: 
   send_mail : 

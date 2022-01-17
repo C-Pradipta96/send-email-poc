@@ -4,7 +4,16 @@
 
 name : CI
 
-on : push
+on : 
+  workflow_dispatch:
+    inputs:
+      choice:
+        type: choice
+        description: Choose an organisation
+        options:
+          - XYZ
+          - ABC
+          - PQR
 
 jobs: 
   send_mail : 
